@@ -1,0 +1,29 @@
+# STM32CubeIDE / Eclipse — estado del workspace (local a tu máquina)
+.metadata/
+
+# Salidas de compilación CDT
+Debug/
+Release/
+
+# Artefactos embebidos (por si algún build los deja fuera de Debug/Release)
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.o
+*.a
+*.su
+*.cyclo
+
+# Respaldo CubeMX
+*.ioc.bak
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Descomentar si no querés versionar launch configs con rutas absolutas locales
+# *.launch
